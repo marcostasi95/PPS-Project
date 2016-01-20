@@ -1,5 +1,7 @@
 package it.view;
 
-public class MagaLayout {
+import javax.swing.JLabel;
 
+public class MagaLayout {
+	JLabel benvenuto = new JLabel("Benvenuto");
 }
