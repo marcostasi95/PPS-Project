@@ -8,7 +8,7 @@ public class PayLayout extends JFrame {
 
 	public PayLayout(){
 		super("Schermata Pagamento");
-		//reinvio prova
+		
 		JLabel nomeutente = new JLabel("Nome Utente");
 		JButton logout = new JButton("Logout");
 		JMenu progetto = new JMenu("Seleziona Progetto");
