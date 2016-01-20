@@ -22,8 +22,8 @@ public class PayLayout extends JFrame {
 		nomeutente.setBounds(600,10, nomeutente.getPreferredSize().width,nomeutente.getPreferredSize().height);
 		logout.setBounds(700,10, logout.getPreferredSize().width, logout.getPreferredSize().height);
 		progetto.setBounds(200, 300, progetto.getPreferredSize().width, progetto.getPreferredSize().height);
-		totale.setBounds(700, 400, totale.getPreferredSize().width, totale.getPreferredSize().height);
-		conferma.setBounds(700,600, conferma.getPreferredSize().width,conferma.getPreferredSize().height);
+		totale.setBounds(400, 350, totale.getPreferredSize().width, totale.getPreferredSize().height);
+		conferma.setBounds(400,400, conferma.getPreferredSize().width,conferma.getPreferredSize().height);
 		
 		c.add(nomeutente);
 		c.add(logout);
