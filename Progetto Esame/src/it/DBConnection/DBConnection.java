@@ -1,7 +1,7 @@
 package it.DBConnection;
 import java.sql.*;
 import java.util.ArrayList;
-
+//
 public class DBConnection {
 
    private static Connection db;      

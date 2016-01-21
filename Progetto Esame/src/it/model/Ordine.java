@@ -2,14 +2,14 @@ package it.model;
 
 public class Ordine {
 	
-	private String codOrdine;
+	private int codOrdine;
 	private double totale;
 	private double prezzo;
 	private String nomeArt;
 	private String nomeUtente;
-	private String codProgetto;
+	private int codProgetto;
 	
-	public Ordine (String codOrdine, double totale, double prezzo, String nomeArt, String nomeUtente, String codProgetto){
+	public Ordine (int codOrdine, double totale, double prezzo, String nomeArt, String nomeUtente, int codProgetto){
 	this.codOrdine = codOrdine;
 	this.totale = totale;
 	this.prezzo = prezzo;
@@ -20,11 +20,11 @@ public class Ordine {
 	}
 		
 
-	public String getCodOrdine() {
+	public int getCodOrdine() {
 		return codOrdine;
 	}
 
-	public void setCodOrdine(String codOrdine) {
+	public void setCodOrdine(int codOrdine) {
 		this.codOrdine = codOrdine;
 	}
 
@@ -60,11 +60,11 @@ public class Ordine {
 		this.nomeUtente = nomeUtente;
 	}
 
-	public String getCodProgetto() {
+	public int getCodProgetto() {
 		return codProgetto;
 	}
 
-	public void setCodProgetto(String codProgetto) {
+	public void setCodProgetto(int codProgetto) {
 		this.codProgetto = codProgetto;
 	}
 

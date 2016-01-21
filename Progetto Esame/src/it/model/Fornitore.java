@@ -3,12 +3,12 @@ package it.model;
 public class Fornitore {
 	
 	private String nomeF;
-	private String codForn;
+	private int codForn;
 	private String telF;
 	private String mailF;
 
 	
-	public Fornitore (String nomeF, String codForn, String telF, String mailF){
+	public Fornitore (String nomeF, int codForn, String telF, String mailF){
 		this.nomeF = nomeF;
 		this.codForn = codForn;
 		this.telF = telF;
@@ -26,12 +26,12 @@ public class Fornitore {
 	}
 
 
-	public String getCodForn() {
+	public int getCodForn() {
 		return codForn;
 	}
 
 
-	public void setCodForn(String codForn) {
+	public void setCodForn(int codForn) {
 		this.codForn = codForn;
 	}
 

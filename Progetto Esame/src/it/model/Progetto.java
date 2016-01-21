@@ -5,13 +5,13 @@ import javax.xml.crypto.Data;
 public class Progetto {
 	
 	private String capoProgetto;
-	private String codProgetto;
+	private int codProgetto;
 	private Data dataI;
 	private Data dataF;
 	private double costoMax;
 	private double budRes;
 	
-	public Progetto (String capoProgetto, String codProgetto, Data dataI, Data dataF, double costoMax, double budRes){
+	public Progetto (String capoProgetto, int codProgetto, Data dataI, Data dataF, double costoMax, double budRes){
 		
 		this.capoProgetto = capoProgetto;
 		this.codProgetto = codProgetto;
@@ -29,11 +29,11 @@ public class Progetto {
 		this.capoProgetto = capoProgetto;
 	}
 
-	public String getCodProgetto() {
+	public int getCodProgetto() {
 		return codProgetto;
 	}
 
-	public void setCodProgetto(String codProgetto) {
+	public void setCodProgetto(int codProgetto) {
 		this.codProgetto = codProgetto;
 	}
 

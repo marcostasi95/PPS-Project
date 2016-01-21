@@ -2,7 +2,7 @@ package it.model;
 
 public class Articolo extends Categoria{
 	
-	private String codiceA;
+	private int codiceA;
 	private String nomeA;
 	private int disponibilita;
 	private double prezzo;
@@ -10,7 +10,7 @@ public class Articolo extends Categoria{
 	private String produttore;
 	private String fornitore;
 	
-	public Articolo (String nomeC, String codiceA, String nomeA, int disponibilita, double prezzo, String descrizione, String produttore, String fornitore){
+	public Articolo (String nomeC, int codiceA, String nomeA, int disponibilita, double prezzo, String descrizione, String produttore, String fornitore){
 		super(nomeC);
 		this.codiceA = codiceA;
 		this.nomeA = nomeA;
@@ -21,11 +21,11 @@ public class Articolo extends Categoria{
 		this.fornitore = fornitore;
 	}
 
-	public String getCodiceA() {
+	public int getCodiceA() {
 		return codiceA;
 	}
 
-	public void setCodiceA(String codiceA) {
+	public void setCodiceA(int codiceA) {
 		this.codiceA = codiceA;
 	}
 

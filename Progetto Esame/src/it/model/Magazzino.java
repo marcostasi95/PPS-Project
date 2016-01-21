@@ -2,20 +2,20 @@ package it.model;
 
 public class Magazzino {
 	
-	private String codMagazzino;
+	private int codMagazzino;
 	private String indirizzoMag;
 	
-	public Magazzino(String codMagazzino, String indirizzoMag){
+	public Magazzino(int codMagazzino, String indirizzoMag){
 		
 		this.codMagazzino=codMagazzino;
 		this.indirizzoMag=indirizzoMag;
 	}
 
-	public String getCodMagazzino() {
+	public int getCodMagazzino() {
 		return codMagazzino;
 	}
 
-	public void setCodMagazzino(String codMagazzino) {
+	public void setCodMagazzino(int codMagazzino) {
 		this.codMagazzino = codMagazzino;
 	}
 
