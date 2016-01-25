@@ -4,7 +4,7 @@ import java.awt.*;
 
 import javax.swing.*;
 
-public class RiLayout extends JFrame {
+public class RiLayout extends JFrame {//
 
 	public RiLayout(){
 		super ("Conferma Stampa");

@@ -16,6 +16,7 @@ public class PayLayout extends JFrame {
 		JButton conferma = new JButton("Conferma Pagamento");
 		
 		//creare menu con i nomi progetto all'interno
+		//
 		
 		Container c = getContentPane();
 		c.setLayout(null);
