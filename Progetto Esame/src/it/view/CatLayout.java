@@ -5,7 +5,7 @@ import java.awt.*;
 import javax.swing.*;
 
 public class CatLayout extends JFrame {
-//
+
 	public CatLayout() {
 	super ("Seleziona Prodotto");
 	JMenu categoria = new JMenu("Categoria");

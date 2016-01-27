@@ -9,7 +9,8 @@ public class StartUp {
 //        new PayLayout();
 //        new RiLayout();
  //       new CatLayout();
-		new RiLayout();
+//		new RiLayout();
+		new CloseLayout();
 	}
 
 }
